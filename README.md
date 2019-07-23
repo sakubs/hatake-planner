@@ -1,6 +1,10 @@
 # smart-hatake
 A scalable tool for high-intensity garden management.
 
+Currently this readme is more of a design doc. This project is still in planning, but I have been thinking about it for a very long time now.
+
+I am leaning towards this project following the same model as a smart home system. A server (old laptop or raspberry pi) that relays messages and holds data, or optionally use cloud services. Although sometimes with remote locations internet service and wifi can be an issue. Local hardware is better for this reason.
+
 
 Background
 ----------
@@ -17,17 +21,18 @@ hatake means garden in Japanese. I am building a smart-garden, which will integr
 Features
 --------
 
-* Online, offline modes.
-* Japanese/English support.
-* Simple/Intuitive interface.
-* Integration with sensors and Iot devices.
+Must Have:
+* Must have Japanese and English support.
+* The interfacing must be simple and intuitive enough for elderly use.
+* The option to integrate with remote sensors and Iot devices is necessary.
 * Data collection and analysis.
+ 
+Would be nice to have:
+* Data sharing and collaboration between users.
 
 
 Design Constraints
 ------------------
-
-This project is still in planning. I have been thinking about it for a very long time now. I have not yet decided to whether to go desktop or web-based yet. Maybe both: online with offline capability is probably a good idea because internet service can sometimes be an issue in the fields. Mobile integration is another future probability. I will layout some design contraints for now.
 
 1. Every feature of this software interface needs to be accessible in Japanese. English is second priority, and any other languages come last.
 
