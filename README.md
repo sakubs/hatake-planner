@@ -1,10 +1,9 @@
 # smart-hatake
-A scalable tool for high-intensity garden management.
+A simple, scalable tool for garden management.
 
 Currently this readme is more of a design doc. This project is still in planning, but I have been thinking about it for a very long time now.
 
-I am leaning towards this project following the same model as a smart home system. A server (old laptop or raspberry pi) that relays messages and holds data, or optionally use cloud services. Although sometimes with remote locations internet service and wifi can be an issue. Local hardware is better for this reason.
-
+Similar to a smart home system, a server (old laptop or raspberry pi) that relays messages and holds data, or optionally use cloud services will be required to build this. Although sometimes with remote locations internet service and wifi can be an issue. Local hardware is better for this reason.
 
 Background
 ----------
@@ -13,7 +12,7 @@ I grow vegetables in Tohoku Japan. Planning layouts, and keeping tracking of eve
 
 Many farmers in my area are elderly (I will be too before I know it) and have mobility problems. My motivation for building a smart farming system is to make growing food and managing a garden easier.
 
-I also integrate smart tools into my garden such as automated watering systems and pest control, things like these would be great to manage from the same interface. 
+I also integrate smart tools into my garden such as automated watering systems and pest control robots, things like these would be great to manage from the same interface. 
 
 hatake means garden in Japanese. I am building a smart-garden, which will integrate hardware and software to make managing a garden of any size a much simpler affair.
 
@@ -26,9 +25,11 @@ Must Have:
 * The interfacing must be simple and intuitive enough for elderly use.
 * The option to integrate with remote sensors and Iot devices is necessary.
 * Data collection and analysis.
+* Track experiments.
  
 Would be nice to have:
 * Data sharing and collaboration between users.
+* AI that can point out patterns that might be missed or hard to find.
 
 
 Design Constraints
