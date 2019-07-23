@@ -43,4 +43,4 @@ Design Constraints
 Contributing
 ============
 
-If you like my vision and want to help me get it done, I welcome contributors. People are living longer, sustainable practices are becoming more popular, resources must be conserved, and growing food is one of the most valuable skills on the planet.
+People are living longer, sustainable practices are becoming more popular, resources must be conserved, and growing food is one of the most valuable skills on the planet so if you like my vision and want to help me get it done, I welcome contributors.
