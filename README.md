@@ -5,11 +5,11 @@ A scalable tool for high-intensity garden management.
 Background
 ----------
 
-I grow vegetables in Tohoku Japan. Managing the planning, and tracking of everything when you grow many things really get's diffictult. I learn more and more every year that I grow, so gathering data, and processing that data is something I would like to utilize for future planning.
+I grow vegetables in Tohoku Japan. Planning layouts, and keeping tracking of everything when you grow many things really gets difficult. I learn more and more every year that I grow, so gathering data, and processing that data is something I would like to utilize for future planning.
 
 Many farmers in my area are elderly (I will be too before I know it) and have mobility problems. My motivation for building a smart farming system is to make growing food and managing a garden easier.
 
-I am integrating smart tools into my garden such as automated watering systems and pest control, things like these would be great to manage from the same interface. 
+I also integrate smart tools into my garden such as automated watering systems and pest control, things like these would be great to manage from the same interface. 
 
 hatake means garden in Japanese. I am building a smart-garden, which will integrate hardware and software to make managing a garden of any size a much simpler affair.
 
