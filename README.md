@@ -14,7 +14,9 @@ Many farmers in my area are elderly (I will be too before I know it) and have mo
 
 I also integrate smart tools into my garden such as automated watering systems and pest control robots, things like these would be great to manage from the same interface. 
 
-hatake means garden in Japanese. I am building a smart-garden, which will integrate hardware and software to make managing a garden of any size a much simpler affair.
+hatake means garden in Japanese. I am building a smart-garden for the future, which will integrate hardware and software to make managing a garden of any size a much simpler affair.
+
+Water and resource management becomes more important every year, and people are living longer so we need smarter farms for the coming future.
 
 
 Features
@@ -30,7 +32,7 @@ Must Have:
 Would be nice to have:
 * Data sharing and collaboration between users.
 * AI that can point out patterns that might be missed or hard to find.
-
+* Tracking for returns on investments.
 
 Design Constraints
 ==================
