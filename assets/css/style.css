@@ -1,0 +1,11 @@
+body {
+    background-color: beige;
+}
+
+/* Grid Items */
+.grid-stack-item {
+    border: 1px solid gray;
+    background-color: green;
+    color: white;
+}
+

@@ -1,0 +1,24 @@
+{
+  "name": "smart-hatake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.8.8",
+    "gridstack": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakubs/smart-hatake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakubs/smart-hatake/issues"
+  },
+  "homepage": "https://github.com/sakubs/smart-hatake#readme"
+}
