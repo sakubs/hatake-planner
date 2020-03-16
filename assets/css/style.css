@@ -1,11 +1,39 @@
-body {
-    background-color: beige;
+/* required file for gridstack to work */
+@import "https://cdn.jsdelivr.net/npm/gridstack@1.1.0/dist/gridstack.min.css";
+
+/* Optional styles for demos */
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
 }
 
-/* Grid Items */
-.grid-stack-item {
-    border: 1px solid gray;
-    background-color: green;
-    color: white;
+.btn {
+  display: inline-block;
+  padding: .375rem .75rem;
+  line-height: 1.5;
+  border-radius: .25rem;
 }
 
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: .5rem;
+}
+
+.grid-stack {
+  background: lightgoldenrodyellow;
+  border: solid green 1px;
+}
+
+.grid-stack-item-content {
+  color: white;
+  text-align: center;
+  background-color: #18bc9c;
+}
+
+#veggie-list {
+    padding: 5px;
+}

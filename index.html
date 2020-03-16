@@ -1,23 +1,159 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gridstack@1.0.0/dist/gridstack.min.css" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>スマート畑</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/gridstack@1.0.0/dist/gridstack.all.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/gridstack@1.1.0/dist/gridstack.all.js"></script>
+
+  <style type="text/css">
+    .grid-stack-item-removing {
+      opacity: 0.8;
+      filter: blur(5px);
+    }
+
+    #trash {
+      background: rgba(255, 0, 0, 0.4);
+    }
+  </style>
 </head>
+
 <body>
-  <section id="garden-builder">
-    <h2>Garden Planner</h2>
-    <div class="grid-stack">
-      <div class="grid-stack-item">
-        <div class="grid-stack-item-content">Lettuce</div>
-      </div>
-      <div class="grid-stack-item" data-gs-width="2">
-        <div class="grid-stack-item-content">Spinach</div>
-      </div>
+  <h1>スマート畑</h1>
+  <div class="row">
+    <div id="veggie-list" class="col-md-2 d-none d-md-block">
+      
+      <div id="trash" style="padding: 15px; margin-bottom: 10px;" class="text-center">
+        <div>
+          <ion-icon name="trash" style="font-size: 400%"></ion-icon>
+        </div>
+        <div>
+          <span>Drop here to remove!</span>
+        </div>
+      </div><!--trash-->
+      
+      <div class="newWidget grid-stack-item" style="padding: 0px; margin-bottom: 5px;" class="text-center">
+        <div class="card-body grid-stack-item-content">
+          <!-- <div>
+            <ion-icon name="add-circle" style="font-size: 400%"></ion-icon>
+          </div> -->
+          <div class="grid-stack-item-content">
+            🥬レタス
+          </div><!--grid-stack-item-content-->
+        </div><!--card-body-->
+      </div><!--newWidget-->
+
+      <div class="newWidget grid-stack-item" style="padding: 0px; margin-bottom: 5px;" class="text-center">
+        <div class="card-body grid-stack-item-content">
+          <div class="grid-stack-item-content">
+            🥬ホウレンソウ
+          </div><!--grid-stack-item-content-->
+        </div><!--card-body-->
+      </div><!--newWidget-->
+
+      <div class="newWidget grid-stack-item" style="padding: 0px; margin-bottom: 5px;" class="text-center">
+        <div class="card-body grid-stack-item-content">
+          <div class="grid-stack-item-content">
+            🥬小松菜
+          </div><!--grid-stack-item-content-->
+        </div><!--card-body-->
+      </div><!--newWidget-->
+      
+      <div class="newWidget grid-stack-item" style="padding: 0px; margin-bottom: 5px;" class="text-center">
+        <div class="card-body grid-stack-item-content">
+          <div class="grid-stack-item-content">
+            🥕にんじん
+          </div><!--grid-stack-item-content-->
+        </div><!--card-body-->
+      </div><!--newWidget-->
+
+      <div class="newWidget grid-stack-item" style="padding: 0px; margin-bottom: 5px;" class="text-center">
+        <div class="card-body grid-stack-item-content">
+          <div class="grid-stack-item-content">
+            🍆ナス
+          </div><!--grid-stack-item-content-->
+        </div><!--card-body-->
+      </div><!--newWidget-->
+
+      <div class="newWidget grid-stack-item" style="padding: 0px; margin-bottom: 5px;" class="text-center">
+        <div class="card-body grid-stack-item-content">
+          <div class="grid-stack-item-content">
+            🍅トマト
+          </div><!--grid-stack-item-content-->
+        </div><!--card-body-->
+      </div><!--newWidget-->
+
+      <div class="newWidget grid-stack-item" style="padding: 0px; margin-bottom: 5px;" class="text-center">
+        <div class="card-body grid-stack-item-content">
+          <div class="grid-stack-item-content">
+            🥔じゃがいも
+          </div><!--grid-stack-item-content-->
+        </div><!--card-body-->
+      </div><!--newWidget-->
     </div>
-    <script type="text/javascript">
-      GridStack.init();
-    </script> 
-  </section> 
+
+    <div id="garden-div" class="col-sm-12 col-md-10">
+
+      <div class="grid-stack" data-gs-animate="yes">
+        
+        <div class="grid-stack-item" data-gs-x="0" data-gs-y="0" data-gs-width="4" data-gs-height="2">
+          <div class="grid-stack-item-content"> 🥬レタス</div>
+        </div>
+        
+        <div class="grid-stack-item" data-gs-x="10" data-gs-y="0" data-gs-width="2" data-gs-height="2">
+          <div class="grid-stack-item-content"> 🥬ホウレンソウ</div>
+        </div>
+
+        <div class="grid-stack-item" data-gs-x="0" data-gs-y="2" data-gs-width="2" data-gs-height="2">
+          <div class="grid-stack-item-content">🥬小松菜</div>
+        </div>
+
+        <div class="grid-stack-item" data-gs-x="2" data-gs-y="2" data-gs-width="2" data-gs-height="4">
+          <div class="grid-stack-item-content">🥕にんじん</div>
+        </div>
+      </div><!--grid-stack-->
+    </div><!--garden-div-->
+  </div><!--row-->
+
+  <script type="text/javascript">
+    var grid = GridStack.init({
+      alwaysShowResizeHandle: /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      ),
+      resizable: {
+        handles: 'e, se, s, sw, w'
+      },
+      removable: '#trash',
+      removeTimeout: 100,
+      acceptWidgets: '.newWidget'
+    });
+
+    grid.on('added', function(e, items) { log('added ', items) });
+    grid.on('removed', function(e, items) { log('removed ', items) });
+    grid.on('change', function(e, items) { log('change ', items) });
+    function log(type, items) {
+      var str = '';
+      items.forEach(function(item) { str += ' (x,y)=' + item.x + ',' + item.y; });
+      console.log(type + items.length + ' items.' + str );
+    }
+
+    // TODO: switch jquery-ui out
+    $('.newWidget').draggable({
+      revert: 'invalid',
+      scroll: false,
+      appendTo: 'body',
+      helper: 'clone'
+    });
+  </script>
 </body>
+
 </html>
